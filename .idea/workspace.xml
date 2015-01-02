@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f96f7d9-dd04-4f1d-bc55-1a9ff4335826" name="Default" comment="" />
+    <list default="true" id="7f96f7d9-dd04-4f1d-bc55-1a9ff4335826" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/tolik/polaron/Worker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="mPolaron.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,21 +41,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Polaron.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Polaron.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/tolik/polaron/Polaron.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.119521916" vertical-offset="0" max-vertical-offset="753">
-              <caret line="6" column="70" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="70" />
-              <folding>
-                <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-                <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-                <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-                <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-                <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-                <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-                <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-                <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Worker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/tolik/polaron/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.062370062" vertical-offset="0" max-vertical-offset="481">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,8 +64,8 @@
       <file leaf-file-name="ErrorFunction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/tolik/polaron/ErrorFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="720">
-              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="675">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -68,12 +73,18 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/edu/tolik/polaron/ErrorFunction.java" />
-        <option value="$PROJECT_DIR$/src/edu/tolik/polaron/Polaron.java" />
         <option value="$PROJECT_DIR$/src/edu/tolik/polaron/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/tolik/polaron/Polaron.java" />
       </list>
     </option>
   </component>
@@ -82,7 +93,7 @@
     <option name="width" value="1442" />
     <option name="height" value="875" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -106,6 +117,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,7 +156,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,6 +255,19 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -270,19 +294,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -365,32 +376,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1442" height="875" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19583334" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20171674" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -408,6 +419,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,16 +446,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-            <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -469,16 +472,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/tolik/polaron/ErrorFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="720">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/tolik/polaron/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="585">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
-            <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-            <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/tolik/polaron/Polaron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -504,16 +524,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="585">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-            <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -539,16 +550,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-            <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -574,16 +576,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1035">
           <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-          <folding>
-            <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-            <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -609,16 +602,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-            <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,16 +628,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="555">
           <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-            <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -679,16 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-            <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,16 +680,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="915">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-            <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -758,8 +715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/tolik/polaron/ErrorFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="675">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -776,18 +733,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/tolik/polaron/Polaron.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.119521916" vertical-offset="0" max-vertical-offset="753">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="70" />
-          <folding>
-            <element signature="method#Polaron#0;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#1;class#Polaron#0" expanded="false" />
-            <element signature="method#Polaron#2;class#Polaron#0" expanded="false" />
-            <element signature="method#getM#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getF#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getD#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getDexp#0;class#Polaron#0" expanded="false" />
-            <element signature="method#getEp#0;class#Polaron#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/tolik/polaron/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.062370062" vertical-offset="0" max-vertical-offset="481">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
